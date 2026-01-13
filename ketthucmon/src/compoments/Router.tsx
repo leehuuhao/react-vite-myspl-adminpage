@@ -14,6 +14,9 @@ function Navbar() {
           Quản lý kho
         </Link>
       </div>
+      <div style={{ color: 'white' }}>
+        Giỏ hàng: {cartItems.length}
+      </div>
     </nav>
   );
 }
